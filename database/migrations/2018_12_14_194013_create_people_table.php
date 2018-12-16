@@ -15,14 +15,14 @@ class CreatePeopleTable extends Migration
     {
         Schema::create('people', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('first_name');
-            $table->string('last_name');
-            $table->date('DOB');
-            $table->string('age');
-            $table->float('height');
-            $table->float('weight');
-            $table->string('hair_color');
-            $table->string('skin_color');
+            $table->string('first_name')->nullable($value = true);
+            $table->string('last_name')->nullable($value = true);
+            $table->date('DOB')->nullable($value = true);
+            $table->integer('age')->nullable($value = true);
+            $table->string('height')->nullable($value = true);
+            $table->string('weight')->nullable($value = true);
+            $table->string('hair_color')->nullable($value = true);
+            $table->string('skin_color')->nullable($value = true);
             $table->timestamps();
         });
     }

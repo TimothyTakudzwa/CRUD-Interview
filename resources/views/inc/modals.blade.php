@@ -74,21 +74,21 @@
                     <div class="row  row col-sm-12">
                         <div id="first_name1" class="col-sm-6">
                             <label>First Name</label>
-                            <input type="text" class="form-control" id="edit_first_name" placeholder="Enter First Name">
+                            <input type="text" required class="form-control" id="edit_first_name" placeholder="Enter First Name">
                         </div>
                         <div id="last_name1" class="col-sm-6">
                             <label>Last Name</label>
-                            <input type="text" class="form-control" id="edit_last_name" placeholder="Enter Last Name">
+                            <input type="text" required class="form-control" id="edit_last_name" placeholder="Enter Last Name">
                         </div>
                     </div>
                     <div class="row  row col-sm-12">
                         <div id="first_name1" class="col-sm-6">
                             <label>Date of Birth</label>
-                            <input type="date" class="form-control" id="edit_date_of_birth" name="date" placeholder="Pick Date of Birth">
+                            <input type="date" required class="form-control" id="edit_date_of_birth" name="date" placeholder="Pick Date of Birth">
                         </div>
                         <div id="last_name1" class="col-sm-6">
                             <label>Age</label>
-                            <input disabled type="text" class="form-control " id="edit_age" placeholder="Your Age">
+                            <input disabled type="text" required class="form-control " id="edit_age" placeholder="Your Age">
                             <input type="hidden" id="_token" value="{{ csrf_token() }}">
                         </div>
                     </div>
@@ -99,20 +99,20 @@
     
                         <div id="first_name1 " class="col-sm-3">
                             <label>Height</label>
-                            <input type="text" class="form-control" id="edit_height" name="first_name" placeholder="Height in m">
+                            <input type="text" class="form-control" required id="edit_height" name="first_name" placeholder="Height in m">
                         </div>
                         <div id="last_name1" class="col-sm-3">
                             <label>Weight</label>
-                            <input type="text" class="form-control" id="edit_weight" name="last_name" placeholder="Weight in kg">
+                            <input type="text" class="form-control" required id="edit_weight" name="last_name" placeholder="Weight in kg">
                         </div>
                         <div id="first_name1 " class="col-sm-3">
                             <label>Hair Color</label>
-                            <input type="text" class="form-control" id="edit_hair_color" name="first_name" placeholder="Hair Color">
+                            <input type="text" class="form-control" required id="edit_hair_color" name="first_name" placeholder="Hair Color">
                         </div>
                         <div id="last_name1" class="col-sm-3">
                             <label>Skin Color</label>
-                            <input type="text" class="form-control" id="edit_skin_color" name="last_name" placeholder="Skin color">
-                            <input type="hidden" class="form-control" id="edit_id" name="last_name" placeholder="Skin color">
+                            <input type="text" class="form-control" required id="edit_skin_color" name="last_name" placeholder="Skin color">
+                            <input type="hidden" class="form-control" required id="edit_id" name="last_name" placeholder="Skin color">
                         </div>
                     </div>
                 </div>
