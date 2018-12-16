@@ -6,11 +6,11 @@ This project was developed as to answer question provided to develop a web-based
 
 1.       Create a web application to record:
 
-o  <ul><li> A list of people (first name, surname, date of birth, age (calculated field)).</li>
+ <ul><li> A list of people (first name, surname, date of birth, age (calculated field)).</li>
 
-o  <li> A list of attribute types e.g. Height, Hair Colour, Weight etc.  These should not be hardcoded but a list the user can add / edit and delete.</li>
+<li> A list of attribute types e.g. Height, Hair Colour, Weight etc.  These should not be hardcoded but a list the user can add / edit and delete.</li>
 
-o   <li>Ability to link one or more attributes with a corresponding value when editing a person.</li></ul>
+<li>Ability to link one or more attributes with a corresponding value when editing a person.</li></ul>
 
 2.       The list of people must use a Bootstrap compatible grid to display data, sortable and filterable on first name, surname.
 
